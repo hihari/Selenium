@@ -18,7 +18,7 @@ public class Test002 extends BaseSetUp{
 	@Test(dataProvider="fdata")
 	public void printdata(String uName,String pwd){
 		System.out.println(uName+" "+pwd);
-		
+		System.out.println("complete");
 	}
 	
 	

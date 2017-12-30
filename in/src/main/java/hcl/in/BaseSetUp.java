@@ -31,7 +31,7 @@ public class BaseSetUp  {
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+		
 	}
 	
 	public String[][] getTestData(String sName) throws IOException{
